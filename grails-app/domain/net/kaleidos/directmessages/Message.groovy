@@ -85,7 +85,7 @@ class Message {
 
 
     static constraints = {
-        subject nullable: true, blank: true
+        subject nullable: true, blank: true, maxSize: 140
         reply nullable: true
         lastOnThread nullable: true
         numberOfMessagesOnThread nullable: true
